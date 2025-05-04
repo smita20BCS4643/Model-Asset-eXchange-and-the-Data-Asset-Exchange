@@ -56,5 +56,41 @@ Now here, you click on the Notebook Preview option on top to view the notebook h
 This concludes Exercise 1 of this lab, which introduced the Data Asset Exchange
 
 
+# Exercise 2 - Explore deep learning models
+The Model Asset Exchange is a curated repository of Open Source deep learning models for a variety of domains, such as text, image, audio, and video processing.
+
+For more details, [please visit - ](https://github.com/CODAIT/max-central-repo) webpage.
+
+The curated list includes deployable models, which you can run as a microservice locally or in the cloud on Docker or Kubernetes, and trainable models where you can use your own data to train the models. Some of the models are already built for you to test. Let's test one of the models.
+
+In this exercise, explore the Object Detector model hosted on CodePen platform. This model recognizes the objects present in an image. The model consists of a deep convolutional net base model for image feature extraction, together with additional convolutional layers specialized for the task of object detection, trained on the COCO data set. The input to the model is an image, and the output are extracted objects from the image, appropriately labeled.
+
+CodePen is a social development environment. At its heart, it allows to write code in the browser and see the results of it as you build. It is a useful and liberating online code editor for developers of any skill and is particularly empowering for people learning to code.
+
+1. Navigate to CodePen webpage.
+
+2. Select MAX TFJS models as shown in the screenshot below. Here the Image Segmenter, divides an image into regions or categories that correspond to different objects or parts of objects. Every pixel in an image is allocated to one of a number of these categories.
+
+![image](https://github.com/user-attachments/assets/9469d3bb-ea0b-478a-af31-0dafcae80857)
+
+
+3. Click on Select Image and upload an image. You may choose images with a person, dog, cat, truck, car, and so on, which are labels the model has been trained on.
+
+   ![image](https://github.com/user-attachments/assets/74f77aa1-aae8-404a-bf6b-138d43adc05c)
+
+   Click the icon Extract prediction as shown below:
+   
+   You can see the output of the prediction on the basis of the uploaded image.
+   
+   <img width="957" alt="Screenshot 2025-05-04 111402" src="https://github.com/user-attachments/assets/c8a427e7-c185-49d1-b2cb-f23867e55747" />
+
+
+Here the background and the cat image are separated, showing two different parts of the image.
+
+You can also try the webcam option, which will show the real-time prediction by the toggle-on webcam option.
+
+This concludes Exercise 2 of this lab, which introduced the Model Asset Exchange (MAX).
+
+
 
 
