@@ -78,9 +78,9 @@ CodePen is a social development environment. At its heart, it allows to write co
 
    ![image](https://github.com/user-attachments/assets/74f77aa1-aae8-404a-bf6b-138d43adc05c)
 
-   Click the icon Extract prediction as shown below:
+Click the icon Extract prediction as shown below
    
-   You can see the output of the prediction on the basis of the uploaded image.
+You can see the output of the prediction on the basis of the uploaded image.
    
    <img width="957" alt="Screenshot 2025-05-04 111402" src="https://github.com/user-attachments/assets/c8a427e7-c185-49d1-b2cb-f23867e55747" />
 
